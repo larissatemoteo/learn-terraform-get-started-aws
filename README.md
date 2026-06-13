@@ -171,7 +171,11 @@ Terraform will perform the following actions:
 Plan: 1 to add, 0 to change, 0 to destroy.
 ```
 
-![terraform plan](docs/img/04-terraform-plan.png)
+Atributos do recurso a ser criado:
+![terraform plan — atributos](docs/img/04-terraform-plan.png)
+
+Resumo do plano (`Plan: 1 to add, 0 to change, 0 to destroy.`):
+![terraform plan — resumo](docs/img/04b-terraform-plan.png)
 
 ### 5. terraform apply
 
