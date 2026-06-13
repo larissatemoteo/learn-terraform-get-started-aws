@@ -1,0 +1,28 @@
+# Terraform — diretório de plugins/módulos baixados
+.terraform/
+
+# Terraform — arquivos de estado (PODEM conter dados sensíveis — nunca versionar)
+*.tfstate
+*.tfstate.*
+
+# Terraform — planos salvos e logs de crash
+*.tfplan
+crash.log
+crash.*.log
+
+# Variáveis locais com segredos (caso venham a existir)
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Override files (uso local)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# macOS
+.DS_Store
+
+# NÃO ignorar: .terraform.lock.hcl deve ser versionado (trava a versão do provider)
+!.terraform.lock.hcl
